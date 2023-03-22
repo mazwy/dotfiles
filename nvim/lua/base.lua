@@ -8,7 +8,7 @@ vim.o.conceallever = 0
 vim.o.pumheight = 5
 vim.o.showmode = false
 vim.o.showtabline = true
-
+vim.o.showmatch = true
 -- Line numbers & relative numbers:
 vim.o.number = true
 vim.o.relativenumber = true
@@ -42,9 +42,4 @@ vim.opt.wrap = false
 vim.opt.backspace = 'start,eol,indent'
 -- Finding files - Search down into subfolders
 vim.opt.path:append { '**' }
--- ??? vim.opt.wildignore:append { '*/node_
-
--- Undercurl #TODO
---vim.cmd([[let &t_Cs = "
-
 vim.opt.allowrevins = true
