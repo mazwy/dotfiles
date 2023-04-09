@@ -41,8 +41,8 @@ Set-Alias -Name vim -Value nvim
 Set-Alias grep findstr
 Set-Alias tig 'C:\Program Files\Git\usr\bin\tig.exe'
 Set-Alias less 'C:\Program Files\Git\usr\bin\less.exe'
-Set-Alias -Name riderpjatk -Value "C:\Users\maczw\.config\powershell\riderpjatk.bat"
-Set-Alias -Name codepjatk -Value "C:\Users\maczw\.config\powershell\codepjatk.bat"
+Set-Alias -Name riderp -Value "C:\Users\maczw\.config\powershell\riderpjatk.bat"
+Set-Alias -Name codep -Value "C:\Users\maczw\.config\powershell\codepjatk.bat"
 
 # Commands
 function which ($command) {
