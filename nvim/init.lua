@@ -1,0 +1,6 @@
+require('base')
+require('options')
+require('keymaps')
+require('icons')
+require('autocmd')
+require('functions')
